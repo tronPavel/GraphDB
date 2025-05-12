@@ -34,7 +34,7 @@ CREATE TABLE ParticipatesIn AS EDGE;
 
 -- Таблица рёбер: HeldIn (Проводится в)
 CREATE TABLE HeldIn (
-    event_date DATE -- Дата проведения мероприятия
+    event_date DATE 
 ) AS EDGE;
 
 -- Добавление ограничений рёбер
@@ -92,71 +92,57 @@ GO
 -- Заполнение таблицы Knows (знакомства между волонтёрами)
 INSERT INTO Knows ($from_id, $to_id)
 VALUES 
-    ((SELECT $node_id FROM Volunteers WHERE id = 1), (SELECT $node_id FROM Volunteers WHERE id = 2)), -- Анна знает Ивана
-    ((SELECT $node_id FROM Volunteers WHERE id = 1), (SELECT $node_id FROM Volunteers WHERE id = 3)), -- Анна знает Марию
-    ((SELECT $node_id FROM Volunteers WHERE id = 2), (SELECT $node_id FROM Volunteers WHERE id = 4)), -- Иван знает Олега
-    ((SELECT $node_id FROM Volunteers WHERE id = 3), (SELECT $node_id FROM Volunteers WHERE id = 5)), -- Мария знает Елену
-    ((SELECT $node_id FROM Volunteers WHERE id = 4), (SELECT $node_id FROM Volunteers WHERE id = 6)), -- Олег знает Дмитрия
-    ((SELECT $node_id FROM Volunteers WHERE id = 5), (SELECT $node_id FROM Volunteers WHERE id = 7)), -- Елена знает Софью
-    ((SELECT $node_id FROM Volunteers WHERE id = 6), (SELECT $node_id FROM Volunteers WHERE id = 8)), -- Дмитрий знает Алексея
-    ((SELECT $node_id FROM Volunteers WHERE id = 7), (SELECT $node_id FROM Volunteers WHERE id = 9)), -- Софья знает Юлию
-    ((SELECT $node_id FROM Volunteers WHERE id = 8), (SELECT $node_id FROM Volunteers WHERE id = 10)), -- Алексей знает Павла
-    ((SELECT $node_id FROM Volunteers WHERE id = 9), (SELECT $node_id FROM Volunteers WHERE id = 3)); -- Юлия знает Марию
+    ((SELECT $node_id FROM Volunteers WHERE id = 1), (SELECT $node_id FROM Volunteers WHERE id = 2)), 
+    ((SELECT $node_id FROM Volunteers WHERE id = 1), (SELECT $node_id FROM Volunteers WHERE id = 3)), 
+    ((SELECT $node_id FROM Volunteers WHERE id = 2), (SELECT $node_id FROM Volunteers WHERE id = 4)), 
+    ((SELECT $node_id FROM Volunteers WHERE id = 3), (SELECT $node_id FROM Volunteers WHERE id = 5)), 
+    ((SELECT $node_id FROM Volunteers WHERE id = 4), (SELECT $node_id FROM Volunteers WHERE id = 6)), 
+    ((SELECT $node_id FROM Volunteers WHERE id = 5), (SELECT $node_id FROM Volunteers WHERE id = 7)), 
+    ((SELECT $node_id FROM Volunteers WHERE id = 6), (SELECT $node_id FROM Volunteers WHERE id = 8)), 
+    ((SELECT $node_id FROM Volunteers WHERE id = 7), (SELECT $node_id FROM Volunteers WHERE id = 9)), 
+    ((SELECT $node_id FROM Volunteers WHERE id = 8), (SELECT $node_id FROM Volunteers WHERE id = 10)),
+    ((SELECT $node_id FROM Volunteers WHERE id = 9), (SELECT $node_id FROM Volunteers WHERE id = 3)); 
 
 -- Заполнение таблицы ParticipatesIn (участие волонтёров в мероприятиях)
 INSERT INTO ParticipatesIn ($from_id, $to_id)
 VALUES 
-    ((SELECT $node_id FROM Volunteers WHERE id = 1), (SELECT $node_id FROM Events WHERE id = 1)), -- Анна на Эко-фестивале
-    ((SELECT $node_id FROM Volunteers WHERE id = 1), (SELECT $node_id FROM Events WHERE id = 5)), -- Анна на Чистом берегу
-    ((SELECT $node_id FROM Volunteers WHERE id = 2), (SELECT $node_id FROM Events WHERE id = 2)), -- Иван на марафоне
-    ((SELECT $node_id FROM Volunteers WHERE id = 3), (SELECT $node_id FROM Events WHERE id = 3)), -- Мария на Дне донора
-    ((SELECT $node_id FROM Volunteers WHERE id = 4), (SELECT $node_id FROM Events WHERE id = 4)), -- Олег на Фестивале еды
-    ((SELECT $node_id FROM Volunteers WHERE id = 5), (SELECT $node_id FROM Events WHERE id = 6)), -- Елена на концерте
-    ((SELECT $node_id FROM Volunteers WHERE id = 6), (SELECT $node_id FROM Events WHERE id = 7)), -- Дмитрий на велопробеге
-    ((SELECT $node_id FROM Volunteers WHERE id = 7), (SELECT $node_id FROM Events WHERE id = 8)), -- Софья на Книжном обмене
-    ((SELECT $node_id FROM Volunteers WHERE id = 8), (SELECT $node_id FROM Events WHERE id = 9)), -- Алексей на Фотовыставке
-    ((SELECT $node_id FROM Volunteers WHERE id = 9), (SELECT $node_id FROM Events WHERE id = 10)), -- Юлия на Мастер-классе
-    ((SELECT $node_id FROM Volunteers WHERE id = 10), (SELECT $node_id FROM Events WHERE id = 1)); -- Павел на Эко-фестивале
+    ((SELECT $node_id FROM Volunteers WHERE id = 1), (SELECT $node_id FROM Events WHERE id = 1)), 
+    ((SELECT $node_id FROM Volunteers WHERE id = 1), (SELECT $node_id FROM Events WHERE id = 5)), 
+    ((SELECT $node_id FROM Volunteers WHERE id = 2), (SELECT $node_id FROM Events WHERE id = 2)), 
+    ((SELECT $node_id FROM Volunteers WHERE id = 3), (SELECT $node_id FROM Events WHERE id = 3)), 
+    ((SELECT $node_id FROM Volunteers WHERE id = 4), (SELECT $node_id FROM Events WHERE id = 4)), 
+    ((SELECT $node_id FROM Volunteers WHERE id = 5), (SELECT $node_id FROM Events WHERE id = 6)), 
+    ((SELECT $node_id FROM Volunteers WHERE id = 6), (SELECT $node_id FROM Events WHERE id = 7)), 
+    ((SELECT $node_id FROM Volunteers WHERE id = 7), (SELECT $node_id FROM Events WHERE id = 8)), 
+    ((SELECT $node_id FROM Volunteers WHERE id = 8), (SELECT $node_id FROM Events WHERE id = 9)), 
+    ((SELECT $node_id FROM Volunteers WHERE id = 9), (SELECT $node_id FROM Events WHERE id = 10)),
+    ((SELECT $node_id FROM Volunteers WHERE id = 10), (SELECT $node_id FROM Events WHERE id = 1));
 
 -- Заполнение таблицы HeldIn
 INSERT INTO HeldIn ($from_id, $to_id, event_date)
 VALUES 
-    -- Эко-фестиваль проходит в Москве и Санкт-Петербурге
-    ((SELECT $node_id FROM Events WHERE id = 1), (SELECT $node_id FROM Cities WHERE id = 1), '2025-06-01'), -- Эко-фестиваль в Москве
-    ((SELECT $node_id FROM Events WHERE id = 1), (SELECT $node_id FROM Cities WHERE id = 2), '2025-06-15'), -- Эко-фестиваль в СПб
+    ((SELECT $node_id FROM Events WHERE id = 1), (SELECT $node_id FROM Cities WHERE id = 1), '2025-06-01'), 
+    ((SELECT $node_id FROM Events WHERE id = 1), (SELECT $node_id FROM Cities WHERE id = 2), '2025-06-15'),     
+    ((SELECT $node_id FROM Events WHERE id = 2), (SELECT $node_id FROM Cities WHERE id = 2), '2025-07-15'), 
+    ((SELECT $node_id FROM Events WHERE id = 2), (SELECT $node_id FROM Cities WHERE id = 5), '2025-07-20'),  
+    ((SELECT $node_id FROM Events WHERE id = 3), (SELECT $node_id FROM Cities WHERE id = 3), '2025-08-10'), 
     
-    -- Марафон проходит в Санкт-Петербурге и Казани
-    ((SELECT $node_id FROM Events WHERE id = 2), (SELECT $node_id FROM Cities WHERE id = 2), '2025-07-15'), -- Марафон в СПб
-    ((SELECT $node_id FROM Events WHERE id = 2), (SELECT $node_id FROM Cities WHERE id = 5), '2025-07-20'), -- Марафон в Казани
+    ((SELECT $node_id FROM Events WHERE id = 4), (SELECT $node_id FROM Cities WHERE id = 4), '2025-09-05'), 
+    ((SELECT $node_id FROM Events WHERE id = 4), (SELECT $node_id FROM Cities WHERE id = 1), '2025-09-10'), 
     
-    -- День донора в Екатеринбурге
-    ((SELECT $node_id FROM Events WHERE id = 3), (SELECT $node_id FROM Cities WHERE id = 3), '2025-08-10'), -- День донора в Екатеринбурге
+    ((SELECT $node_id FROM Events WHERE id = 5), (SELECT $node_id FROM Cities WHERE id = 5), '2025-10-20'), 
+    ((SELECT $node_id FROM Events WHERE id = 5), (SELECT $node_id FROM Cities WHERE id = 7), '2025-10-25'), 
     
-    -- Фестиваль еды проходит в Новосибирске и Москве
-    ((SELECT $node_id FROM Events WHERE id = 4), (SELECT $node_id FROM Cities WHERE id = 4), '2025-09-05'), -- Фестиваль еды в Новосибирске
-    ((SELECT $node_id FROM Events WHERE id = 4), (SELECT $node_id FROM Cities WHERE id = 1), '2025-09-10'), -- Фестиваль еды в Москве
+    ((SELECT $node_id FROM Events WHERE id = 6), (SELECT $node_id FROM Cities WHERE id = 6), '2025-11-12'), 
+    ((SELECT $node_id FROM Events WHERE id = 6), (SELECT $node_id FROM Cities WHERE id = 9), '2025-11-15'), 
     
-    -- Чистый берег в Казани и Ростове
-    ((SELECT $node_id FROM Events WHERE id = 5), (SELECT $node_id FROM Cities WHERE id = 5), '2025-10-20'), -- Чистый берег в Казани
-    ((SELECT $node_id FROM Events WHERE id = 5), (SELECT $node_id FROM Cities WHERE id = 7), '2025-10-25'), -- Чистый берег в Ростове
+    ((SELECT $node_id FROM Events WHERE id = 7), (SELECT $node_id FROM Cities WHERE id = 7), '2025-12-01'), 
     
-    -- Концерт в Нижнем Новгороде и Самаре
-    ((SELECT $node_id FROM Events WHERE id = 6), (SELECT $node_id FROM Cities WHERE id = 6), '2025-11-12'), -- Концерт в Нижнем Новгороде
-    ((SELECT $node_id FROM Events WHERE id = 6), (SELECT $node_id FROM Cities WHERE id = 9), '2025-11-15'), -- Концерт в Самаре
-    
-    -- Велопробег в Ростове
-    ((SELECT $node_id FROM Events WHERE id = 7), (SELECT $node_id FROM Cities WHERE id = 7), '2025-12-01'), -- Велопробег в Ростове
-    
-    -- Книжный обмен в Красноярске и Москве
     ((SELECT $node_id FROM Events WHERE id = 8), (SELECT $node_id FROM Cities WHERE id = 8), '2026-01-15'), -- Книжный обмен в Красноярске
-    ((SELECT $node_id FROM Events WHERE id = 8), (SELECT $node_id FROM Cities WHERE id = 1), '2026-01-20'), -- Книжный обмен в Москве
+    ((SELECT $node_id FROM Events WHERE id = 8), (SELECT $node_id FROM Cities WHERE id = 1), '2026-01-20'), 
     
-    -- Фотовыставка в Самаре
-    ((SELECT $node_id FROM Events WHERE id = 9), (SELECT $node_id FROM Cities WHERE id = 9), '2026-02-10'), -- Фотовыставка в Самаре
-    
-    -- Мастер-класс во Владивостоке и Санкт-Петербурге
-    ((SELECT $node_id FROM Events WHERE id = 10), (SELECT $node_id FROM Cities WHERE id = 10), '2026-03-05'), -- Мастер-класс во Владивостоке
-    ((SELECT $node_id FROM Events WHERE id = 10), (SELECT $node_id FROM Cities WHERE id = 2), '2026-03-10'); -- Мастер-класс в СПб
+    ((SELECT $node_id FROM Events WHERE id = 9), (SELECT $node_id FROM Cities WHERE id = 9),     
+    ((SELECT $node_id FROM Events WHERE id = 10), (SELECT $node_id FROM Cities WHERE id = 10),     ((SELECT $node_id FROM Events WHERE id = 10), (SELECT $node_id FROM Cities WHERE id = 2), '2026-03-10'); 
 GO
 
 -- 1. Кто знаком с Анной?
