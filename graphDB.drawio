@@ -1,0 +1,936 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3" pages="6">
+  <diagram name="Volunteers" id="page1">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Volunteer 1: Анна -->
+        <mxCell id="volunteer1" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer1_circle" value="Анна" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer1_id" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <!-- Volunteer 2: Иван -->
+        <mxCell id="volunteer2" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="100" y="0" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer2_circle" value="Иван" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer2">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer2_id" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer2">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <!-- Volunteer 3: Мария -->
+        <mxCell id="volunteer3" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="200" y="0" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer3_circle" value="Мария" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer3">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer3_id" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer3">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <!-- Volunteer 4: Олег -->
+        <mxCell id="volunteer4" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="300" y="0" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer4_circle" value="Олег" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer4">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer4_id" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer4">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <!-- Volunteer 5: Елена -->
+        <mxCell id="volunteer5" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="400" y="0" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer5_circle" value="Елена" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer5">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer5_id" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer5">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <!-- Volunteer 6: Дмитрий -->
+        <mxCell id="volunteer6" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="0" y="100" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer6_circle" value="Дмитрий" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer6">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer6_id" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer6">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <!-- Volunteer 7: Софья -->
+        <mxCell id="volunteer7" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer7_circle" value="Софья" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer7">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer7_id" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer7">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <!-- Volunteer 8: Алексей -->
+        <mxCell id="volunteer8" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer8_circle" value="Алексей" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer8">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer8_id" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer8">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <!-- Volunteer 9: Юлия -->
+        <mxCell id="volunteer9" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer9_circle" value="Юлия" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer9">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer9_id" value="9" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer9">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <!-- Volunteer 10: Павел -->
+        <mxCell id="volunteer10" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="400" y="100" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer10_circle" value="Павел" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer10">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer10_id" value="10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="volunteer10">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Events" id="page2">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Event 1: Эко-фестиваль -->
+        <mxCell id="event1" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event1_rect" value="Эко-фестиваль" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event1_id" value="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <!-- Event 2: Марафон -->
+        <mxCell id="event2" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="130" y="0" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event2_rect" value="Марафон" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event2">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event2_id" value="2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event2">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <!-- Event 3: День донора -->
+        <mxCell id="event3" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="260" y="0" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event3_rect" value="День донора" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event3">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event3_id" value="3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event3">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <!-- Event 4: Фестиваль еды -->
+        <mxCell id="event4" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="390" y="0" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event4_rect" value="Фестиваль еды" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event4">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event4_id" value="4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event4">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <!-- Event 5: Чистый берег -->
+        <mxCell id="event5" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="520" y="0" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event5_rect" value="Чистый берег" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event5">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event5_id" value="5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event5">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <!-- Event 6: Концерт -->
+        <mxCell id="event6" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="0" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event6_rect" value="Концерт" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event6">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event6_id" value="6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event6">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <!-- Event 7: Велопробег -->
+        <mxCell id="event7" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="130" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event7_rect" value="Велопробег" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event7">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event7_id" value="7" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event7">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <!-- Event 8: Книжный обмен -->
+        <mxCell id="event8" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="260" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event8_rect" value="Книжный обмен" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event8">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event8_id" value="8" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event8">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <!-- Event 9: Фотовыставка -->
+        <mxCell id="event9" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="390" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event9_rect" value="Фотовыставка" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event9">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event9_id" value="9" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event9">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <!-- Event 10: Мастер-класс -->
+        <mxCell id="event10" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="520" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event10_rect" value="Мастер-класс" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event10">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event10_id" value="10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="event10">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Cities" id="page3">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- City 1: Москва -->
+        <mxCell id="city1" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city1_hex" value="Москва" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="city1">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city1_id" value="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" vertex="1" parent="city1">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+        <!-- City 2: Санкт-Петербург -->
+        <mxCell id="city2" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="130" y="0" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city2_hex" value="Санкт-Петербург" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="city2">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city2_id" value="2" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" vertex="1" parent="city2">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+        <!-- City 3: Екатеринбург -->
+        <mxCell id="city3" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="260" y="0" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city3_hex" value="Екатеринбург" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="city3">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city3_id" value="3" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" vertex="1" parent="city3">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+        <!-- City 4: Новосибирск -->
+        <mxCell id="city4" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="390" y="0" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city4_hex" value="Новосибирск" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="city4">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city4_id" value="4" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" vertex="1" parent="city4">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+        <!-- City 5: Казань -->
+        <mxCell id="city5" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="520" y="0" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city5_hex" value="Казань" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="city5">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city5_id" value="5" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" vertex="1" parent="city5">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+        <!-- City 6: Нижний Новгород -->
+        <mxCell id="city6" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="0" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city6_hex" value="Нижний Новгород" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="city6">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city6_id" value="6" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" vertex="1" parent="city6">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+        <!-- City 7: Ростов -->
+        <mxCell id="city7" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="130" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city7_hex" value="Ростов" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="city7">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city7_id" value="7" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" vertex="1" parent="city7">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+        <!-- City 8: Красноярск -->
+        <mxCell id="city8" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="260" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city8_hex" value="Красноярск" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="city8">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city8_id" value="8" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" vertex="1" parent="city8">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+        <!-- City 9: Самара -->
+        <mxCell id="city9" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="390" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city9_hex" value="Самара" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="city9">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city9_id" value="9" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" vertex="1" parent="city9">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+        <!-- City 10: Владивосток -->
+        <mxCell id="city10" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="520" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city10_hex" value="Владивосток" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="city10">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city10_id" value="10" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" vertex="1" parent="city10">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Knows" id="page4">
+    <mxGraphModel dx="543" dy="1258" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="volunteer2" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="25.760000000000005" y="-26" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer2_circle" value="Иван" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer2" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer2_id" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer2" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer3" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="179" y="-134" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer3_circle" value="Мария" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer3" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer3_id" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer3" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer4" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="177" y="-26" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer4_circle" value="Олег" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer4" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer4_id" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer4" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer5" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="304" y="-26" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer5_circle" value="Елена" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer5" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer5_id" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer5" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer6" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="170" y="89" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer6_circle" value="Дмитрий" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer6" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer6_id" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer6" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer7" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="380" y="61" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer7_circle" value="Софья" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer7" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer7_id" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer7" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer8" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="24" y="89" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer8_circle" value="Алексей" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer8" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer8_id" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer8" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer9" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="378" y="-134" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer9_circle" value="Юлия" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer9" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer9_id" value="9" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer9" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer10" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="25.759999999999998" y="204" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer10_circle" value="Павел" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer10" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer10_id" value="10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer10" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <mxCell id="knows1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=12;startSize=8;endSize=8;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="volunteer1_circle" target="volunteer2_id" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="knows2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;fontSize=12;startSize=8;endSize=8;" parent="1" source="volunteer1_circle" target="volunteer3_circle" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="knows3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;fontSize=12;startSize=8;endSize=8;" parent="1" source="volunteer2_circle" target="volunteer4_circle" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="knows4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;entryX=0.5;entryY=0;fontSize=12;startSize=8;endSize=8;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="volunteer3_circle" target="volunteer5_id" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="knows5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.429;exitY=1.019;entryX=0.5;entryY=0;fontSize=12;startSize=8;endSize=8;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;" parent="1" source="volunteer4_circle" target="volunteer6_id" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="knows6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.599;exitY=1.025;entryX=0;entryY=0.5;fontSize=12;startSize=8;endSize=8;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="volunteer5_circle" target="volunteer7_circle" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="knows7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="volunteer6_circle" target="volunteer8_circle" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="168" y="129" as="sourcePoint" />
+            <mxPoint x="104" y="122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knows8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;fontSize=12;startSize=8;endSize=8;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" parent="1" source="volunteer7_circle" target="volunteer9_circle" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="knows9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=12;startSize=8;endSize=8;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="volunteer8_circle" target="volunteer10_circle" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="knows10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;fontSize=12;startSize=8;endSize=8;" parent="1" source="volunteer9_circle" target="volunteer3_circle" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ush1Yvvm7WAgGFeFhAJH-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="28" y="-134" width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer1_circle" value="Анна" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="Ush1Yvvm7WAgGFeFhAJH-1" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer1_id" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="Ush1Yvvm7WAgGFeFhAJH-1" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="ParticipatesIn" id="page5">
+    <mxGraphModel dx="1000" dy="948" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="volunteer1" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer1_circle" value="Анна" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer1" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer1_id" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer1" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer2" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="145" y="90" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer2_circle" value="Иван" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer2" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer2_id" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer2" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer3" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="279" y="84" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer3_circle" value="Мария" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer3" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer3_id" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer3" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer4" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="407.5" y="84" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer4_circle" value="Олег" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer4" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer4_id" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer4" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer5" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="17.5" y="377" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer5_circle" value="Елена" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer5" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer5_id" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer5" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer6" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="147.5" y="372" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer6_circle" value="Дмитрий" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer6" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer6_id" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer6" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer7" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="279" y="371" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer7_circle" value="Софья" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer7" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer7_id" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer7" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer8" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="410" y="371" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer8_circle" value="Алексей" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer8" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer8_id" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer8" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer9" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="537.5" y="372" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer9_circle" value="Юлия" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer9" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer9_id" value="9" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer9" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer10" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="-85" y="81" width="85" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer10_circle" value="Павел" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer10" vertex="1">
+          <mxGeometry width="80.52631578947368" height="80.52631578947368" as="geometry" />
+        </mxCell>
+        <mxCell id="volunteer10_id" value="10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="volunteer10" vertex="1">
+          <mxGeometry x="29.325" width="24.963157894736845" height="24.963157894736845" as="geometry" />
+        </mxCell>
+        <mxCell id="event1" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event1_rect" value="Эко-фестиваль" style="rounded=0;whiteSpace=wrap;html=1;" parent="event1" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event1_id" value="1" style="rounded=0;whiteSpace=wrap;html=1;" parent="event1" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="event2" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="130" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event2_rect" value="Марафон" style="rounded=0;whiteSpace=wrap;html=1;" parent="event2" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event2_id" value="2" style="rounded=0;whiteSpace=wrap;html=1;" parent="event2" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="event3" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="260" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event3_rect" value="День донора" style="rounded=0;whiteSpace=wrap;html=1;" parent="event3" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event3_id" value="3" style="rounded=0;whiteSpace=wrap;html=1;" parent="event3" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="event4" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="390" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event4_rect" value="Фестиваль еды" style="rounded=0;whiteSpace=wrap;html=1;" parent="event4" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event4_id" value="4" style="rounded=0;whiteSpace=wrap;html=1;" parent="event4" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="event5" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="520" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event5_rect" value="Чистый берег" style="rounded=0;whiteSpace=wrap;html=1;" parent="event5" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event5_id" value="5" style="rounded=0;whiteSpace=wrap;html=1;" parent="event5" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="event6" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event6_rect" value="Концерт" style="rounded=0;whiteSpace=wrap;html=1;" parent="event6" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event6_id" value="6" style="rounded=0;whiteSpace=wrap;html=1;" parent="event6" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="event7" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="130" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event7_rect" value="Велопробег" style="rounded=0;whiteSpace=wrap;html=1;" parent="event7" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event7_id" value="7" style="rounded=0;whiteSpace=wrap;html=1;" parent="event7" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="event8" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="260" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event8_rect" value="Книжный обмен" style="rounded=0;whiteSpace=wrap;html=1;" parent="event8" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event8_id" value="8" style="rounded=0;whiteSpace=wrap;html=1;" parent="event8" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="event9" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="390" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event9_rect" value="Фотовыставка" style="rounded=0;whiteSpace=wrap;html=1;" parent="event9" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event9_id" value="9" style="rounded=0;whiteSpace=wrap;html=1;" parent="event9" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="event10" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="520" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event10_rect" value="Мастер-класс" style="rounded=0;whiteSpace=wrap;html=1;" parent="event10" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event10_id" value="10" style="rounded=0;whiteSpace=wrap;html=1;" parent="event10" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="participates1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="volunteer1_circle" target="event1_rect" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="participates2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;fontSize=12;startSize=8;endSize=8;exitDx=0;exitDy=0;" parent="1" source="volunteer1_circle" target="event5_rect" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="281" y="-17" />
+              <mxPoint x="568" y="112" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="participates3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="volunteer2_circle" target="event2_rect" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="participates4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="volunteer3_circle" target="event3_rect" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="participates5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="volunteer4_circle" target="event4_rect" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="participates6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;fontSize=12;startSize=8;endSize=8;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="volunteer5_id" target="event6_rect" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="participates7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" parent="1" source="volunteer6_id" target="event7_rect" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="336" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="participates8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;fontSize=12;startSize=8;endSize=8;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="volunteer7_id" target="event8_rect" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="314" y="383" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="participates9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="volunteer8_id" target="event9_rect" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="444" y="377" as="sourcePoint" />
+            <mxPoint x="450" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="participates10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;fontSize=12;startSize=8;endSize=8;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" parent="1" source="volunteer9_id" target="event10_rect" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="participates11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;entryX=0.25;entryY=0;fontSize=12;startSize=8;endSize=8;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="volunteer10_circle" target="event1_rect" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="HeldIn" id="page6">
+    <mxGraphModel dx="2439" dy="1302" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="event1" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="-157" y="-3" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event1_rect" value="Эко-фестиваль" style="rounded=0;whiteSpace=wrap;html=1;" parent="event1" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event1_id" value="1" style="rounded=0;whiteSpace=wrap;html=1;" parent="event1" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="event2" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="111" y="-3" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event2_rect" value="Марафон" style="rounded=0;whiteSpace=wrap;html=1;" parent="event2" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event2_id" value="2" style="rounded=0;whiteSpace=wrap;html=1;" parent="event2" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="event3" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="189" y="316" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event3_rect" value="День донора" style="rounded=0;whiteSpace=wrap;html=1;" parent="event3" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event3_id" value="3" style="rounded=0;whiteSpace=wrap;html=1;" parent="event3" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="event4" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="-21" y="-3" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event4_rect" value="Фестиваль еды" style="rounded=0;whiteSpace=wrap;html=1;" parent="event4" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event4_id" value="4" style="rounded=0;whiteSpace=wrap;html=1;" parent="event4" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="event5" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="373" y="47" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event5_rect" value="Чистый берег" style="rounded=0;whiteSpace=wrap;html=1;" parent="event5" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event5_id" value="5" style="rounded=0;whiteSpace=wrap;html=1;" parent="event5" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="event6" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="30" y="445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event6_rect" value="Концерт" style="rounded=0;whiteSpace=wrap;html=1;" parent="event6" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event6_id" value="6" style="rounded=0;whiteSpace=wrap;html=1;" parent="event6" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="event7" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="518" y="49" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event7_rect" value="Велопробег" style="rounded=0;whiteSpace=wrap;html=1;" parent="event7" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event7_id" value="7" style="rounded=0;whiteSpace=wrap;html=1;" parent="event7" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="event8" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="-343" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event8_rect" value="Книжный обмен" style="rounded=0;whiteSpace=wrap;html=1;" parent="event8" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event8_id" value="8" style="rounded=0;whiteSpace=wrap;html=1;" parent="event8" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="event9" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="390" y="444" width="120" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="event9_rect" value="Фотовыставка" style="rounded=0;whiteSpace=wrap;html=1;" parent="event9" vertex="1">
+          <mxGeometry width="120" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="event9_id" value="9" style="rounded=0;whiteSpace=wrap;html=1;" parent="event9" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="event10" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="-118" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event10_rect" value="Мастер-класс" style="rounded=0;whiteSpace=wrap;html=1;" parent="event10" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="event10_id" value="10" style="rounded=0;whiteSpace=wrap;html=1;" parent="event10" vertex="1">
+          <mxGeometry x="41" width="38" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="city1" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="-277" y="185" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city1_hex" value="Москва" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="city1" vertex="1">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city1_id" value="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" parent="city1" vertex="1">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="city2" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="-118" y="185" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city2_hex" value="Санкт-Петербург" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="city2" vertex="1">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city2_id" value="2" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" parent="city2" vertex="1">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="city3" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="189" y="192" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city3_hex" value="Екатеринбург" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="city3" vertex="1">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city3_id" value="3" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" parent="city3" vertex="1">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="city4" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="27" y="189" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city4_hex" value="Новосибирск" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="city4" vertex="1">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city4_id" value="4" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" parent="city4" vertex="1">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="city5" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="335" y="192" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city5_hex" value="Казань" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="city5" vertex="1">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city5_id" value="5" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" parent="city5" vertex="1">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="city6" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="27" y="308" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city6_hex" value="Нижний Новгород" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="city6" vertex="1">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city6_id" value="6" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" parent="city6" vertex="1">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="city7" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="483" y="192" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city7_hex" value="Ростов" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="city7" vertex="1">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city7_id" value="7" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" parent="city7" vertex="1">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="city8" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="-444" y="185" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city8_hex" value="Красноярск" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="city8" vertex="1">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city8_id" value="8" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" parent="city8" vertex="1">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="city9" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="224" y="434" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city9_hex" value="Самара" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="city9" vertex="1">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city9_id" value="9" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" parent="city9" vertex="1">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="city10" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="-118" y="434" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city10_hex" value="Владивосток" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="city10" vertex="1">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="city10_id" value="10" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=7.566680908203125;" parent="city10" vertex="1">
+          <mxGeometry x="47" width="26" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="heldin1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="event1_rect" target="city1_hex" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heldin11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.7;exitY=1;entryX=0.3;entryY=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="event1_rect" target="city2_hex" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heldin2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="event2_rect" target="city2_hex" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heldin12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.7;exitY=1;entryX=0.3;entryY=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="event2_rect" target="city5_hex" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heldin3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="event3_id" target="city3_hex" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="299.5" y="327" as="sourcePoint" />
+            <mxPoint x="299.5" y="269" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="heldin4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;fontSize=12;startSize=8;endSize=8;" parent="1" target="city4_hex" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="57" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="heldin13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;entryX=0.817;entryY=0.041;fontSize=12;startSize=8;endSize=8;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="event4_rect" target="city1_hex" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heldin5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="event5_rect" target="city5_hex" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heldin14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.7;exitY=1;entryX=0.3;entryY=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="event5_rect" target="city7_hex" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heldin6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;fontSize=12;startSize=8;endSize=8;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" parent="1" source="event6_id" target="city6_hex" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heldin15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;fontSize=12;startSize=8;endSize=8;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" parent="1" source="event6_rect" target="city9_hex" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heldin7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="event7_rect" target="city7_hex" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heldin8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="event8_rect" target="city8_hex" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heldin16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;entryX=0.178;entryY=0.041;fontSize=12;startSize=8;endSize=8;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="event8_rect" target="city1_hex" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heldin9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;fontSize=12;startSize=8;endSize=8;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="event9_rect" target="city9_hex" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="460" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="heldin10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=12;startSize=8;endSize=8;exitDx=0;exitDy=0;" parent="1" source="event10_rect" target="city10_hex" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heldin17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;fontSize=12;startSize=8;endSize=8;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="event10_id" target="city2_hex" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
