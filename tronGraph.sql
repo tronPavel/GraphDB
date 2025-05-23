@@ -181,6 +181,7 @@ FROM Volunteers AS V1,
 WHERE MATCH(SHORTEST_PATH(V1(-(K)->V2)+))
 AND V1.name = N'Анна';
 
+
 -- 2. Найти кратчайшие пути от Олега до волонтёров на глубине не более 3 шагов (шаблон {1,3})
 SELECT V1.name AS Volunteer, 
        STRING_AGG(V2.name, '->') WITHIN GROUP (GRAPH PATH) AS ConnectionPath
