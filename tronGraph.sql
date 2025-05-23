@@ -1,12 +1,14 @@
 USE master;
 GO
+
 DROP DATABASE IF EXISTS VolunteerNetwork;
 GO
+
 CREATE DATABASE VolunteerNetwork;
 GO
+
 USE VolunteerNetwork;
 GO
-
 
 CREATE TABLE Volunteers
 (
@@ -17,7 +19,7 @@ CREATE TABLE Volunteers
 CREATE TABLE Events
 (
     id INT NOT NULL PRIMARY KEY,
-    name NVARCHAR(50) NOT NULL,
+    name NVARCHAR(50) NOT NULL
 ) AS NODE;
 
 CREATE TABLE Cities
@@ -74,20 +76,19 @@ VALUES
     (9, N'Фотовыставка'),
     (10, N'Мастер-класс по рисованию');
 
-INSERT INTO Cities (id, name, region)
+INSERT INTO Cities (id, name)
 VALUES 
-    (1, N'Москва', N'Московская область'),
-    (2, N'Санкт-Петербург', N'Ленинградская область'),
-    (3, N'Екатеринбург', N'Свердловская область'),
-    (4, N'Новосибирск', N'Новосибирская область'),
-    (5, N'Казань', N'Татарстан'),
-    (6, N'Нижний Новгород', N'Нижегородская область'),
-    (7, N'Ростов-на-Дону', N'Ростовская область'),
-    (8, N'Красноярск', N'Красноярский край'),
-    (9, N'Самара', N'Самарская область'),
-    (10, N'Владивосток', N'Приморский край');
+    (1, N'Москва'),
+    (2, N'Санкт-Петербург'),
+    (3, N'Екатеринбург'),
+    (4, N'Новосибирск'),
+    (5, N'Казань'),
+    (6, N'Нижний Новгород'),
+    (7, N'Ростов-на-Дону'),
+    (8, N'Красноярск'),
+    (9, N'Самара'),
+    (10, N'Владивосток');
 GO
-
 
 -- Заполнение таблицы Knows (знакомства между волонтёрами)
 INSERT INTO Knows ($from_id, $to_id)
@@ -126,23 +127,18 @@ VALUES
     ((SELECT $node_id FROM Events WHERE id = 2), (SELECT $node_id FROM Cities WHERE id = 2), '2025-07-15'), 
     ((SELECT $node_id FROM Events WHERE id = 2), (SELECT $node_id FROM Cities WHERE id = 5), '2025-07-20'),  
     ((SELECT $node_id FROM Events WHERE id = 3), (SELECT $node_id FROM Cities WHERE id = 3), '2025-08-10'), 
-    
     ((SELECT $node_id FROM Events WHERE id = 4), (SELECT $node_id FROM Cities WHERE id = 4), '2025-09-05'), 
     ((SELECT $node_id FROM Events WHERE id = 4), (SELECT $node_id FROM Cities WHERE id = 1), '2025-09-10'), 
-    
     ((SELECT $node_id FROM Events WHERE id = 5), (SELECT $node_id FROM Cities WHERE id = 5), '2025-10-20'), 
     ((SELECT $node_id FROM Events WHERE id = 5), (SELECT $node_id FROM Cities WHERE id = 7), '2025-10-25'), 
-    
     ((SELECT $node_id FROM Events WHERE id = 6), (SELECT $node_id FROM Cities WHERE id = 6), '2025-11-12'), 
     ((SELECT $node_id FROM Events WHERE id = 6), (SELECT $node_id FROM Cities WHERE id = 9), '2025-11-15'), 
-    
     ((SELECT $node_id FROM Events WHERE id = 7), (SELECT $node_id FROM Cities WHERE id = 7), '2025-12-01'), 
-    
-    ((SELECT $node_id FROM Events WHERE id = 8), (SELECT $node_id FROM Cities WHERE id = 8), '2026-01-15'), -- Книжный обмен в Красноярске
+    ((SELECT $node_id FROM Events WHERE id = 8), (SELECT $node_id FROM Cities WHERE id = 8), '2026-01-15'),
     ((SELECT $node_id FROM Events WHERE id = 8), (SELECT $node_id FROM Cities WHERE id = 1), '2026-01-20'), 
-    
-    ((SELECT $node_id FROM Events WHERE id = 9), (SELECT $node_id FROM Cities WHERE id = 9),     
-    ((SELECT $node_id FROM Events WHERE id = 10), (SELECT $node_id FROM Cities WHERE id = 10),     ((SELECT $node_id FROM Events WHERE id = 10), (SELECT $node_id FROM Cities WHERE id = 2), '2026-03-10'); 
+    ((SELECT $node_id FROM Events WHERE id = 9), (SELECT $node_id FROM Cities WHERE id = 9), '2026-02-15'),     
+    ((SELECT $node_id FROM Events WHERE id = 10), (SELECT $node_id FROM Cities WHERE id = 10), '2026-03-05'),    
+    ((SELECT $node_id FROM Events WHERE id = 10), (SELECT $node_id FROM Cities WHERE id = 2), '2026-03-10'); 
 GO
 
 -- 1. Кто знаком с Анной?
@@ -176,7 +172,6 @@ WHERE MATCH(V1-(P1)->E1-(H1)->C<-(H2)-E2<-(P2)-V2)
 AND V1.name = N'Анна'
 AND V1.id != V2.id;
 
-
 -- 1. Найти кратчайшие пути от Анны до всех волонтёров через знакомства (шаблон +)
 SELECT V1.name AS Volunteer, 
        STRING_AGG(V2.name, '->') WITHIN GROUP (GRAPH PATH) AS ConnectionPath
@@ -194,4 +189,3 @@ FROM Volunteers AS V1,
      Volunteers FOR PATH AS V2
 WHERE MATCH(SHORTEST_PATH(V1(-(K)->V2){1,3}))
 AND V1.name = N'Олег';
-
