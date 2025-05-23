@@ -28,18 +28,18 @@ CREATE TABLE Cities
     name NVARCHAR(30) NOT NULL
 ) AS NODE;
 
--- Таблица рёбер: Knows (Знаком с)
+-- РўР°Р±Р»РёС†Р° СЂС‘Р±РµСЂ: Knows (Р—РЅР°РєРѕРј СЃ)
 CREATE TABLE Knows AS EDGE;
 
--- Таблица рёбер: ParticipatesIn (Участвует в)
+-- РўР°Р±Р»РёС†Р° СЂС‘Р±РµСЂ: ParticipatesIn (РЈС‡Р°СЃС‚РІСѓРµС‚ РІ)
 CREATE TABLE ParticipatesIn AS EDGE;
 
--- Таблица рёбер: HeldIn (Проводится в)
+-- РўР°Р±Р»РёС†Р° СЂС‘Р±РµСЂ: HeldIn (РџСЂРѕРІРѕРґРёС‚СЃСЏ РІ)
 CREATE TABLE HeldIn (
     event_date DATE 
 ) AS EDGE;
 
--- Добавление ограничений рёбер
+-- Р”РѕР±Р°РІР»РµРЅРёРµ РѕРіСЂР°РЅРёС‡РµРЅРёР№ СЂС‘Р±РµСЂ
 ALTER TABLE Knows
 ADD CONSTRAINT EC_Knows CONNECTION (Volunteers TO Volunteers);
 
@@ -52,45 +52,45 @@ GO
 
 INSERT INTO Volunteers (id, name)
 VALUES 
-    (1, N'Анна'),
-    (2, N'Иван'),
-    (3, N'Мария'),
-    (4, N'Олег'),
-    (5, N'Елена'),
-    (6, N'Дмитрий'),
-    (7, N'Софья'),
-    (8, N'Алексей'),
-    (9, N'Юлия'),
-    (10, N'Павел');
+    (1, N'РђРЅРЅР°'),
+    (2, N'РРІР°РЅ'),
+    (3, N'РњР°СЂРёСЏ'),
+    (4, N'РћР»РµРі'),
+    (5, N'Р•Р»РµРЅР°'),
+    (6, N'Р”РјРёС‚СЂРёР№'),
+    (7, N'РЎРѕС„СЊСЏ'),
+    (8, N'РђР»РµРєСЃРµР№'),
+    (9, N'Р®Р»РёСЏ'),
+    (10, N'РџР°РІРµР»');
 
 INSERT INTO Events (id, name)
 VALUES 
-    (1, N'Эко-фестиваль'),
-    (2, N'Благотворительный марафон'),
-    (3, N'День донора'),
-    (4, N'Фестиваль уличной еды'),
-    (5, N'Чистый берег'),
-    (6, N'Концерт для детей'),
-    (7, N'Велопробег'),
-    (8, N'Книжный обмен'),
-    (9, N'Фотовыставка'),
-    (10, N'Мастер-класс по рисованию');
+    (1, N'Р­РєРѕ-С„РµСЃС‚РёРІР°Р»СЊ'),
+    (2, N'Р‘Р»Р°РіРѕС‚РІРѕСЂРёС‚РµР»СЊРЅС‹Р№ РјР°СЂР°С„РѕРЅ'),
+    (3, N'Р”РµРЅСЊ РґРѕРЅРѕСЂР°'),
+    (4, N'Р¤РµСЃС‚РёРІР°Р»СЊ СѓР»РёС‡РЅРѕР№ РµРґС‹'),
+    (5, N'Р§РёСЃС‚С‹Р№ Р±РµСЂРµРі'),
+    (6, N'РљРѕРЅС†РµСЂС‚ РґР»СЏ РґРµС‚РµР№'),
+    (7, N'Р’РµР»РѕРїСЂРѕР±РµРі'),
+    (8, N'РљРЅРёР¶РЅС‹Р№ РѕР±РјРµРЅ'),
+    (9, N'Р¤РѕС‚РѕРІС‹СЃС‚Р°РІРєР°'),
+    (10, N'РњР°СЃС‚РµСЂ-РєР»Р°СЃСЃ РїРѕ СЂРёСЃРѕРІР°РЅРёСЋ');
 
 INSERT INTO Cities (id, name)
 VALUES 
-    (1, N'Москва'),
-    (2, N'Санкт-Петербург'),
-    (3, N'Екатеринбург'),
-    (4, N'Новосибирск'),
-    (5, N'Казань'),
-    (6, N'Нижний Новгород'),
-    (7, N'Ростов-на-Дону'),
-    (8, N'Красноярск'),
-    (9, N'Самара'),
-    (10, N'Владивосток');
+    (1, N'РњРѕСЃРєРІР°'),
+    (2, N'РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі'),
+    (3, N'Р•РєР°С‚РµСЂРёРЅР±СѓСЂРі'),
+    (4, N'РќРѕРІРѕСЃРёР±РёСЂСЃРє'),
+    (5, N'РљР°Р·Р°РЅСЊ'),
+    (6, N'РќРёР¶РЅРёР№ РќРѕРІРіРѕСЂРѕРґ'),
+    (7, N'Р РѕСЃС‚РѕРІ-РЅР°-Р”РѕРЅСѓ'),
+    (8, N'РљСЂР°СЃРЅРѕСЏСЂСЃРє'),
+    (9, N'РЎР°РјР°СЂР°'),
+    (10, N'Р’Р»Р°РґРёРІРѕСЃС‚РѕРє');
 GO
 
--- Заполнение таблицы Knows (знакомства между волонтёрами)
+-- Р—Р°РїРѕР»РЅРµРЅРёРµ С‚Р°Р±Р»РёС†С‹ Knows (Р·РЅР°РєРѕРјСЃС‚РІР° РјРµР¶РґСѓ РІРѕР»РѕРЅС‚С‘СЂР°РјРё)
 INSERT INTO Knows ($from_id, $to_id)
 VALUES 
     ((SELECT $node_id FROM Volunteers WHERE id = 1), (SELECT $node_id FROM Volunteers WHERE id = 2)), 
@@ -104,7 +104,7 @@ VALUES
     ((SELECT $node_id FROM Volunteers WHERE id = 8), (SELECT $node_id FROM Volunteers WHERE id = 10)),
     ((SELECT $node_id FROM Volunteers WHERE id = 9), (SELECT $node_id FROM Volunteers WHERE id = 3)); 
 
--- Заполнение таблицы ParticipatesIn (участие волонтёров в мероприятиях)
+-- Р—Р°РїРѕР»РЅРµРЅРёРµ С‚Р°Р±Р»РёС†С‹ ParticipatesIn (СѓС‡Р°СЃС‚РёРµ РІРѕР»РѕРЅС‚С‘СЂРѕРІ РІ РјРµСЂРѕРїСЂРёСЏС‚РёСЏС…)
 INSERT INTO ParticipatesIn ($from_id, $to_id)
 VALUES 
     ((SELECT $node_id FROM Volunteers WHERE id = 1), (SELECT $node_id FROM Events WHERE id = 1)), 
@@ -119,7 +119,7 @@ VALUES
     ((SELECT $node_id FROM Volunteers WHERE id = 9), (SELECT $node_id FROM Events WHERE id = 10)),
     ((SELECT $node_id FROM Volunteers WHERE id = 10), (SELECT $node_id FROM Events WHERE id = 1));
 
--- Заполнение таблицы HeldIn
+-- Р—Р°РїРѕР»РЅРµРЅРёРµ С‚Р°Р±Р»РёС†С‹ HeldIn
 INSERT INTO HeldIn ($from_id, $to_id, event_date)
 VALUES 
     ((SELECT $node_id FROM Events WHERE id = 1), (SELECT $node_id FROM Cities WHERE id = 1), '2025-06-01'), 
@@ -141,52 +141,52 @@ VALUES
     ((SELECT $node_id FROM Events WHERE id = 10), (SELECT $node_id FROM Cities WHERE id = 2), '2026-03-10'); 
 GO
 
--- 1. Кто знаком с Анной?
+-- 1. РљС‚Рѕ Р·РЅР°РєРѕРј СЃ РђРЅРЅРѕР№?
 SELECT V1.name AS Volunteer, V2.name AS Friend
 FROM Volunteers AS V1, Knows, Volunteers AS V2
 WHERE MATCH(V1-(Knows)->V2)
-AND V1.name = N'Анна';
+AND V1.name = N'РђРЅРЅР°';
 
--- 2. Какие мероприятия посещают знакомые Анны?
+-- 2. РљР°РєРёРµ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ РїРѕСЃРµС‰Р°СЋС‚ Р·РЅР°РєРѕРјС‹Рµ РђРЅРЅС‹?
 SELECT V2.name AS Friend, E.name AS Event
 FROM Volunteers AS V1, Volunteers AS V2, Knows, ParticipatesIn, Events AS E
 WHERE MATCH(V1-(Knows)->V2-(ParticipatesIn)->E)
-AND V1.name = N'Анна';
+AND V1.name = N'РђРЅРЅР°';
 
--- 3. В каких городах проходят мероприятия, в которых участвует Иван?
+-- 3. Р’ РєР°РєРёС… РіРѕСЂРѕРґР°С… РїСЂРѕС…РѕРґСЏС‚ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ, РІ РєРѕС‚РѕСЂС‹С… СѓС‡Р°СЃС‚РІСѓРµС‚ РРІР°РЅ?
 SELECT E.name AS Event, C.name AS City
 FROM Volunteers AS V, ParticipatesIn, Events AS E, HeldIn, Cities AS C
 WHERE MATCH(V-(ParticipatesIn)->E-(HeldIn)->C)
-AND V.name = N'Иван';
+AND V.name = N'РРІР°РЅ';
 
--- 4. Кто участвует в мероприятиях в Москве?
+-- 4. РљС‚Рѕ СѓС‡Р°СЃС‚РІСѓРµС‚ РІ РјРµСЂРѕРїСЂРёСЏС‚РёСЏС… РІ РњРѕСЃРєРІРµ?
 SELECT V.name AS Volunteer, E.name AS Event
 FROM Volunteers AS V, ParticipatesIn, Events AS E, HeldIn, Cities AS C
 WHERE MATCH(V-(ParticipatesIn)->E-(HeldIn)->C)
-AND C.name = N'Москва';
+AND C.name = N'РњРѕСЃРєРІР°';
 
---5: Какие волонтёры участвуют в мероприятиях, проходящих в одном городе с Анной?
+--5: РљР°РєРёРµ РІРѕР»РѕРЅС‚С‘СЂС‹ СѓС‡Р°СЃС‚РІСѓСЋС‚ РІ РјРµСЂРѕРїСЂРёСЏС‚РёСЏС…, РїСЂРѕС…РѕРґСЏС‰РёС… РІ РѕРґРЅРѕРј РіРѕСЂРѕРґРµ СЃ РђРЅРЅРѕР№?
 SELECT DISTINCT V2.name AS Volunteer, E2.name AS Event, C.name AS City
 FROM Volunteers AS V1, Volunteers AS V2, ParticipatesIn AS P1, ParticipatesIn AS P2, Events AS E1, Events AS E2, HeldIn AS H1, HeldIn AS H2, Cities AS C
 WHERE MATCH(V1-(P1)->E1-(H1)->C<-(H2)-E2<-(P2)-V2)
-AND V1.name = N'Анна'
+AND V1.name = N'РђРЅРЅР°'
 AND V1.id != V2.id;
 
--- 1. Найти кратчайшие пути от Анны до всех волонтёров через знакомства (шаблон +)
+-- 1. РќР°Р№С‚Рё РєСЂР°С‚С‡Р°Р№С€РёРµ РїСѓС‚Рё РѕС‚ РђРЅРЅС‹ РґРѕ РІСЃРµС… РІРѕР»РѕРЅС‚С‘СЂРѕРІ С‡РµСЂРµР· Р·РЅР°РєРѕРјСЃС‚РІР° (С€Р°Р±Р»РѕРЅ +)
 SELECT V1.name AS Volunteer, 
        STRING_AGG(V2.name, '->') WITHIN GROUP (GRAPH PATH) AS ConnectionPath
 FROM Volunteers AS V1, 
      Knows FOR PATH AS K, 
      Volunteers FOR PATH AS V2
 WHERE MATCH(SHORTEST_PATH(V1(-(K)->V2)+))
-AND V1.name = N'Анна';
+AND V1.name = N'РђРЅРЅР°';
 
 
--- 2. Найти кратчайшие пути от Олега до волонтёров на глубине не более 3 шагов (шаблон {1,3})
+-- 2. РќР°Р№С‚Рё РєСЂР°С‚С‡Р°Р№С€РёРµ РїСѓС‚Рё РѕС‚ РћР»РµРіР° РґРѕ РІРѕР»РѕРЅС‚С‘СЂРѕРІ РЅР° РіР»СѓР±РёРЅРµ РЅРµ Р±РѕР»РµРµ 3 С€Р°РіРѕРІ (С€Р°Р±Р»РѕРЅ {1,3})
 SELECT V1.name AS Volunteer, 
        STRING_AGG(V2.name, '->') WITHIN GROUP (GRAPH PATH) AS ConnectionPath
 FROM Volunteers AS V1, 
      Knows FOR PATH AS K, 
      Volunteers FOR PATH AS V2
 WHERE MATCH(SHORTEST_PATH(V1(-(K)->V2){1,3}))
-AND V1.name = N'Олег';
+AND V1.name = N'РћР»РµРі';
